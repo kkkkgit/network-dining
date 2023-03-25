@@ -7,13 +7,16 @@ import EventDetails from './../pages/EventDetails';
 
 
 const Routers = () => {
-    return 
+    return ( 
     <Routes>
-        <Route path='/' element={<Navigate to='/home'/>} />
-        <Route path='/home' element={<Home/>} />
-        <Route path='/event' element={<Events/>} />
-        <Route path='/event/:id' element={<EventDetails/>} />
+        <Route path="/" element={<Navigate to="/home"/>} />
+        <Route path="/home" element={<Home/>} />
+        <Route path="/event" element={<Events/>} />
+        <Route path="/event/:id" element={<EventDetails/>} />
+        <Route path="/login" element={<Login/>} />
+        
     </Routes>
+    )
 };
 
 export default Routers;
