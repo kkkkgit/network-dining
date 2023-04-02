@@ -1,5 +1,6 @@
 import React, {useRef} from 'react';
 import { Col, Form, FormGroup } from "reactstrap";
+//import 'remixicon/fonts/remixicon.css'
 
 import './search-bar.css'
 

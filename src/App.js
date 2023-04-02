@@ -1,4 +1,5 @@
 import React, { Component }  from 'react';
+import 'remixicon/fonts/remixicon.css'
 
 import './App.css';
 import Layout from './components/Layout/Layout';
