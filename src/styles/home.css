@@ -45,7 +45,12 @@ object-fit: cover;
     font-family: var(--subtitle-font-name);
 }
 
-.services__subtitle{
+.services__title{
     font-size: 2.5rem;
     font-weight: 500;
 }
+.featured_event-title{
+    font-size: 2.5rem;
+    font-weight: 500;
+ }
+

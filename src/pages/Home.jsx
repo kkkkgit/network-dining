@@ -4,6 +4,7 @@ import { Container, Row, Col, } from 'reactstrap';
 import Subtitle from './../shared/Subtitle';
 import SearchBar from '../shared/SearchBar';
 import EventServiceList from "../services/EventServiceList";
+import FeaturedEventList from "../components/Featured-events/FeaturedEventList";
 
 import '../styles/home.css';
 
@@ -65,8 +66,19 @@ const Home = () => {
     </section>
     {/* === EVENTS.Card.section.END === */}
 
-    {/* === FEATURED.section.START  45.3 === */}
+    {/* === FEATURED.section.START  45 === */}
 
+    <section>
+        <Container>
+            <Row>
+                <Col lg="12" className="mb-5">
+                <Subtitle subtitle={'Features'}/>
+                <h5 className="featured_event-title">Popular Featured Events!</h5>
+                </Col>
+                <FeaturedEventList />
+            </Row>
+        </Container>
+    </section>        
     {/* === FEATURED.Card.section.END === */}
     </>
     
